@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pregnancy-symptom-precautions>
+    <symptom>
+        <name>nausea</name>
+        <precaution>Eat small, frequent meals. Stay hydrated. Avoid triggers like strong smells.</precaution>
+    </symptom>
+    <symptom>
+        <name>headache</name>
+        <precaution>Rest, stay hydrated, and use over-the-counter pain relievers if approved by your doctor.</precaution>
+    </symptom>
+    <symptom>
+        <name>back pain</name>
+        <precaution>Practice good posture, use a pregnancy pillow, and consider prenatal massage.</precaution>
+    </symptom>
+    <symptom>
+        <name>fatigue</name>
+        <precaution>Get plenty of rest, eat a balanced diet, and try gentle exercise like walking.</precaution>
+    </symptom>
+    <symptom>
+        <name>swelling</name>
+        <precaution>Elevate your feet, stay hydrated, and avoid standing for long periods.</precaution>
+    </symptom>
+</pregnancy-symptom-precautions>

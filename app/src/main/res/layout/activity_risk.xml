@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textRiskLevels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risk Level Explanations"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textLowRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 = Low Risk: The patient is considered to be at low risk based on the features provided."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textMidRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 = Mid Risk: The patient is at moderate risk and should be monitored closely."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textHighRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 = High Risk: The patient is at high risk and requires immediate attention and intervention."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textFeatureDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feature Explanations:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textFeatureInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Age: Older age can be a risk factor. \n Body Temperature (°F): Abnormal body temperature may indicate a health issue.\n Heart Rate (bpm): Elevated heart rate can be a sign of cardiovascular problems.\n Systolic Blood Pressure (mm Hg): High systolic blood pressure is associated with hypertension.\n Diastolic Blood Pressure (mm Hg): High diastolic blood pressure can also indicate hypertension."
+    android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict Risk" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_week_by__week__pregnancy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myproject.Pregnancy.Week_by_Week_Pregnancy">
+    <TextView
+        android:id="@+id/brainpuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Text"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"/>
+
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/viewPager">
+            </androidx.viewpager.widget.ViewPager>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/linearLayout2"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btnImagePrevious"
+                android:text="Previous"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"/>
+
+            <Button
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btnImageNext"
+                android:text="Next"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>
